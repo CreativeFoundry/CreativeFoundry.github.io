@@ -28,7 +28,17 @@
 <body>
 	<div class="coming_soon">
 		<img src="img/CreativeFoundry_fulllogo.png" height="82" width="395" alt="">
-		<div class="text">Coming Soon...</div>
+		<div class="coming_soon_text"><span class="text"></span></div>
 	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="js/typed.min.js"></script>
+	<script>
+		$(".text").typed({
+			strings: ["Coming Soon...", "Stay Tuned!"],
+			typeSpeed: 30,
+			loop: true,
+			loopCount: false
+		});
+	</script>
 </body>
 </html>
