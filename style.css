@@ -1,0 +1,23 @@
+html, body{
+	margin: 0;
+	height: 100%;
+}
+body{
+	background-color: #F9F1EA;
+	background-image: url("img/creativebackground.png");
+	font-family: 'Open Sans', sans-serif;
+}
+.coming_soon{
+	text-align: center;
+	position: relative;
+	top: 50%;
+	width: 100%;
+	transform: translate(0, -50%);
+}
+
+.coming_soon .text{
+	font-size: 24px;
+	margin-top: 20px;
+	font-weight: 300;
+	color: #999;
+}
