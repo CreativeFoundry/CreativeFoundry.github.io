@@ -44,3 +44,17 @@ body{
     50% { opacity:0; }
     100% { opacity:1; }
 }
+
+.powered{
+    font-weight: 300;
+    font-style: italic;
+    color: #999;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 12px;
+}
+
+.twlogo{
+        max-width: 180px;
+}
