@@ -1,0 +1,118 @@
+@import "partials/make_content_center";
+@import "partials/banner";
+
+
+html, body{
+	margin: 0;
+	height: 100%;
+}
+body{
+	background-color: #8706CC;
+        // background-color: #F9F1EA;
+	// background-image: url("../../img/creativebackground.png");
+	font-family: 'Open Sans', sans-serif;
+}
+.about{
+    @include make_content_center;
+    text-transform: uppercase;
+    text-align: center justify;
+    color: #fff;
+    max-width: 80%;
+}
+
+// .section{
+//         background-image: url("../../img/creativewashed.png");
+// }
+
+.speakers{
+    @include make_content_center;
+    text-transform: uppercase;
+    text-align: center;
+    color: #333;
+    max-width: 80%;
+}
+
+.agenda{
+    @include make_content_center;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    max-width: 80%;
+}
+
+.register{
+    @include make_content_center;
+    text-transform: uppercase;
+    text-align: center;
+    color: #333;
+    max-width: 80%;
+}
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+    position: relative;
+    top: -5px;
+    color: #999;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.powered{
+    font-weight: 300;
+    font-style: italic;
+    color: #999;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 12px;
+}
+
+
+[class$="_section"]{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.btn {
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: .12em;
+    border-radius: 28px;
+    border-color: #fff;
+    color: #e3515c;
+    font-size: 16px;
+    background: #fff;
+    padding: 20px 60px 20px 60px;
+    text-decoration: none;
+    margin-top: 10%;
+}
+
+.btn:hover {
+  background: #630fc2;
+  text-decoration: none;
+}
+
+
+
+.twlogo{
+        max-width: 180px;
+}
+

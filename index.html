@@ -22,18 +22,60 @@
 	<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="stylesheet/css/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	<div class="coming_soon">
-		<img src="img/CreativeFoundry_fulllogo.png" height="82" width="395" alt="">
-		<div class="coming_soon_text"><span class="text"></span></div>
+<div id="fullpage">
+	<div class="section" id="section1">
+	    <div class="slide" id="slide1">
+	    	<div id="particles-js"></div>
+	    		<div class="coming_soon">
+					<!-- <img src="img/CreativeFoundry_fulllogo.png" alt="banner" id="teaser"> -->
+					<img src="img/CreativeFoundry_logo_washed.png" alt="banner" id="teaser">
+					<div class="coming_soon_text"><span class="text"></span></div>
+					<button class="btn">Register Now</button>
+				</div>
+		</div>
 	</div>
-	<div class="powered">
-		<p>powered by</p>
-		<img class= "twlogo" src="img/TW Colour Logos_trans_magenta.png" alt="TW_logo">
+
+	<div class="section" id="section2">
+		<div class="about">
+			<h1>About the event</h1>
+			<p>
+				Get a chance to hear from some of the most inspiring and interesting speakers from the creative fraternity across India on the 20th of May  2016 at Creative Foundry.
+			</p>
+
+			<p>
+				Creative Foundry is a ThoughtWorks initiative, a platform for some of the most creative minds in the field of design, and art and music to share, inspire and get inspired.
+			</p>		
+		</div>
 	</div>
+
+	<div class="section" id="section3">
+		<div class="speakers">
+			<p> list of speakers</p>
+		</div>
+	</div>
+
+	<div class="section" id="section4">
+		<div class="agenda">
+			<p> agenda </p>
+		</div>
+	</div>
+
+	<div class="section" id="section5">
+		<div class="register">
+			<p> REGISTRATION FORM</p>
+			<button class="btn">Register Now</button>
+		</div>
+	</div>
+
+</div>
+
+
+
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 	<script src="js/typed.min.js"></script>
 	<script>
@@ -44,5 +86,18 @@
 			loopCount: false
 		});
 	</script>
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage'],
+				sectionsColor: ['','#111', '#fff', '#323539','#ededed'],
+				scrollOverflow: true
+			});
+		});
+	</script>
+	<script src="js/particles.js"></script>
+	<script src="js/app.js"></script>
 </body>
 </html>
