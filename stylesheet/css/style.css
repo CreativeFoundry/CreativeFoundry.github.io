@@ -20,6 +20,9 @@ body {
   background-color: #8706CC;
   font-family: 'Open Sans', sans-serif; }
 
+img {
+  max-width: 90%; }
+
 .about {
   text-align: center;
   position: relative;

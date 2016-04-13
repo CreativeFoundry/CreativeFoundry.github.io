@@ -12,6 +12,9 @@ body{
 	// background-image: url("../../img/creativebackground.png");
 	font-family: 'Open Sans', sans-serif;
 }
+img{
+    max-width: 90%;
+}
 .about{
     @include make_content_center;
     text-transform: uppercase;
