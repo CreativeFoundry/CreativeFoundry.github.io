@@ -1,0 +1,39 @@
+
+.agenda{
+    @include make_content_center;
+    color: #fff;
+    line-height: 1em;
+    .agenda-header {
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .divider{
+        width:10%;
+        height:1px;
+        background: #fff;
+        text-align:center;
+        margin: 0 auto;
+    }
+    .agenda-day {
+        text-align: center;
+        border-bottom: 3px solid #fff;
+        padding: 15px 0;
+        font-style: italic;
+        }
+    .agenda-time-place {
+        border-bottom: 1px solid #fff;
+        padding: 15px 0;
+    }
+    span.time {
+        width: 20%;
+        min-width: 100px;
+        max-width: 120px;
+        font-weight: bold;
+        display: inline-block;
+    }
+    .agenda-footer {
+        text-align: center;
+        padding: 15px 0 0px 0;
+    }
+
+}

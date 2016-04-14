@@ -1,6 +1,8 @@
 @import "partials/make_content_center";
 @import "partials/banner";
-
+@import "partials/register_form";
+@import "partials/agenda";
+@import "partials/about";
 
 html, body{
 	margin: 0;
@@ -15,38 +17,12 @@ body{
 img{
     max-width: 90%;
 }
-.about{
-    @include make_content_center;
-    text-transform: uppercase;
-    text-align: center justify;
-    color: #fff;
-    max-width: 70%;
-    line-height: 3em;
-    .head{
-    border:0;
-    border-bottom:0.5px;
-    border-style: solid;
-    border-color: #fff;
-    }
-}
-
-// .section{
-//         background-image: url("../../img/creativewashed.png");
-// }
 
 .speakers{
     @include make_content_center;
     text-transform: uppercase;
     text-align: center;
     color: #333;
-    max-width: 80%;
-}
-
-.agenda{
-    @include make_content_center;
-    text-transform: uppercase;
-    text-align: center;
-    color: #fff;
     max-width: 80%;
 }
 
