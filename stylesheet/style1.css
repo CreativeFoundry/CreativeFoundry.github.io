@@ -131,6 +131,7 @@ text-align: justify;
 
 .agenda-day{
 	border-bottom: #fff solid 1px;
+  border: 0;
   line-height: 24px;
   font-size: 24px;
   color: #fff;
@@ -182,7 +183,10 @@ address{
   color: #fff;
 }
 
-
+.navbar-toggle {
+      background: #ed312f ;
+      border-color: transparent;
+    }
 
 
 
