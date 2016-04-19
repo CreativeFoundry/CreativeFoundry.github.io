@@ -48,7 +48,7 @@
   letter-spacing: .12em;
   border-radius: 28px;
   border: 0;
-  color: #e3515c;
+  color: #ed312f;
   font-size: 16px;
   background: #fff;
   padding: 20px 60px 20px 60px;
@@ -106,22 +106,34 @@
 	display: flex;
 	margin: 10px 0;
 	max-width: 80%;
+  color: #fff;
 }
 .event-time{
 	min-width: 120px;
+  font-weight: 600;
 }
 .event-description{
-	border-left: #000 solid 3px;
+	border-left: #5ac8cf solid 3px;
 	padding-left: 10px;
 }
 .event-description-title{
-	font-weight: 800;
+	font-weight: 600;
+  font-size: 20px;
 }
 
+.event-description-note{
+font-size: 12px;
+font-weight: 300;
+padding-top: 5px;
+text-align: justify;
+}  
+
+
 .agenda-day{
-	border-bottom: #000 solid 1px;
-	border-top: #000 solid 1px;
-	padding: 0 5px 0 5px;
+	border-bottom: #fff solid 1px;
+  line-height: 24px;
+  font-size: 24px;
+  color: #fff;
 }
 .section{
 	padding: 100px 0;
@@ -130,8 +142,9 @@
   float: right;
 }
 .navbar-nav>li>a{
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-bottom: solid 3px;
 }
 .contact{
   color: #fff;
@@ -156,8 +169,18 @@ address{
   background: #efefef;
 }
 
+.social_glyphs{
+    max-width: 32px;
+}
 
+.social-copyright-block{
+  background: #ed312f;
+  width: 100%;
+}
 
+.copyright{
+  color: #fff;
+}
 
 
 

@@ -54,7 +54,7 @@ strong {
 }
 a:focus,
 a:hover {
-    color: #718639;
+    color: #fff;
     text-decoration: none
 }
 p {
