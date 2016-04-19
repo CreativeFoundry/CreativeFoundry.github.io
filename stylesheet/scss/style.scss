@@ -3,6 +3,9 @@
 @import "partials/register_form";
 @import "partials/agenda";
 @import "partials/about";
+@import "partials/speaker";
+@import "partials/menu";
+@import "partials/section";
 
 html, body{
 	margin: 0;
@@ -13,6 +16,9 @@ body{
     // background-color: #F9F1EA;
 	// background-image: url("../../img/creativebackground.png");
 	font-family: 'Open Sans', sans-serif;
+}
+ul{
+    margin: 0;
 }
 img{
     max-width: 90%;
@@ -67,7 +73,6 @@ img{
     right: 16px;
     font-size: 12px;
 }
-
 
 [class$="_section"]{
     position: absolute;
