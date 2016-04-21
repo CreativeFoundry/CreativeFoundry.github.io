@@ -649,37 +649,6 @@ textarea.parsley-error {
     background-color: #F2DEDE!important;
     border: 1px solid #EED3D7!important
 }
-.section.footer {
-    border-top: 1px solid #dadad1;
-    background: url(../images/logo-lineart.png) no-repeat center top
-}
-.section.footer .section-content {
-    padding: 50px
-}
-.section.footer .col-left .copyright {
-    display: block;
-    padding-bottom: 10px
-}
-.section.footer .col-left .credits,
-.section.footer .col-left .credits a {
-    color: #777!important;
-    font-size: 14px!important
-}
-.section.footer .col-right {
-    text-align: right
-}
-.section.footer .col-right a {
-    font-size: 26px;
-    color: #000
-}
-.section.footer .col-right a:hover {
-    color: #333
-}
-.section.footer .col-right .houzz,
-.section.footer .col-right .linkedin,
-.section.footer .col-right .pinterest {
-    font-size: 30px
-}
 @media only screen and (min-width: 1700px) and (max-width: 2000px) {
     .section.projects .col-right .magnet-item {
         width: 23%;
@@ -758,9 +727,6 @@ textarea.parsley-error {
     .section.contact>.section-content .col-mid .address {
         font-size: 21px;
         padding: 74px 50px
-    }
-    .section.footer>.section-content {
-        padding: 50px
     }
 }
 @media only screen and (min-width: 1025px) and (max-width: 1290px) {
@@ -877,9 +843,7 @@ textarea.parsley-error {
     .section.contact>.section-content .col-mid .address {
         font-size: 19px;
         padding: 70px 50px
-    }
-    .section.footer>.section-content {
-        padding: 40px
+        
     }
 }
 @media only screen and (max-width: 800px) {
@@ -974,9 +938,6 @@ textarea.parsley-error {
     }
     .contact-form label {
         font-size: 14px
-    }
-    .section.footer>.section-content {
-        padding: 30px
     }
 }
 @media only screen and (min-width: 410px) and (max-width: 690px) {
@@ -1251,10 +1212,6 @@ textarea.parsley-error {
     }
     .contact-form .btn-submit {
         font-size: 16px
-    }
-    .section.footer .col-right {
-        margin-top: 30px;
-        text-align: center
     }
 }
 .spinner {
