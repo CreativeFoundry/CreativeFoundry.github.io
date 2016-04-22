@@ -206,17 +206,17 @@ address {
     justify-content: space-between;
     padding: 0 10px;
 }
-}
 
+
+}
 .copyright {
     color: #fff;
 }
-
 .navbar-toggle {
     background: #ed312f;
-    border-color: transparent;
+    border-color: none;
+    margin-top: 24px;
 }
-
 .more_speakers {
     font-weight: 600;
     text-transform: uppercase;
@@ -224,7 +224,6 @@ address {
     text-align: center;
     align-items: center;
 }
-
 .about-section {
     background-image: url(../img/img_tw_indian_pattern.png);
     background-repeat: no-repeat;
@@ -232,13 +231,11 @@ address {
     color: #fff;
     text-align: center;
 }
-
 .about_event_heading {
     color: #fff;
     font-weight: 800;
     text-transform: uppercase;
 }
-
 .about_event {
     background-color: rgba(0, 0, 0, 0.7);
     color: #fff;
@@ -246,7 +243,6 @@ address {
     margin: 20px;
     padding: 40px 30px;
 }
-
 @media only screen and (min-width: 800px) {
     .about_event {
         width: 450px;
@@ -254,34 +250,38 @@ address {
         font-size: 24px;
     }
 }
-
-.section.contact{
+.section.contact {
     background-image: url(../img/img_indian_fort.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
 }
-
-.venue-content{
-background-color: rgba(0, 0, 0, 0.7);
-font-size: 20px;
-font-weight: 300;
-padding: 60px;
+.venue-content {
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+    font-weight: 300;
+    padding: 60px;
 }
-
-.venue-header{
-  font-weight: 600;
-  text-transform: uppercase;
+.venue-header {
+    font-weight: 600;
+    text-transform: uppercase;
 }
-
-.divider{
-  border-bottom: 1px solid #fff;
-  border: 0;
+.divider {
+    border-bottom: 1px solid #fff;
+    border: 0;
 }
-
 .logo_navbar {
-    padding-left: 80px;
+    padding-left: 10px;
     padding-top: 15px;
     float: left;
 }
-
+@media only screen and (min-width: 800px) {
+    .logo_navbar {
+        padding-left: 80px;
+    }
+}
+@media only screen and (min-width: 410px) and (max-width: 769px) {
+    .navbar-nav {
+        padding-left: 50px;
+        width: 65%;
+    }
+}
