@@ -63,7 +63,7 @@
     background: #fff;
     padding: 20px 60px 20px 60px;
     text-decoration: none;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .speaker_list {
@@ -289,5 +289,19 @@ address {
   
       .logo_navbar {
         padding-left: 80px;
+    }
+}
+.event-date {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+@media only screen and (min-width: 769px) {
+    .event-date {
+        text-align: center;
+        padding-left: 0;
     }
 }
