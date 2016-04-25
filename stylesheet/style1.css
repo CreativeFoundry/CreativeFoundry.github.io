@@ -63,7 +63,6 @@
     background: #fff;
     padding: 20px 60px 20px 60px;
     text-decoration: none;
-    margin-top: 5%;
 }
 
 .speaker_list {
@@ -81,7 +80,10 @@
     -webkit-align-content: flex-end;
     align-content: flex-end;
 }
-
+.speaker_list a{
+    color: #fff;
+    text-decoration: underline;
+}
 .speaker_name {
     font-weight: 900;
     font-size: 1em;
@@ -155,8 +157,8 @@
 }
 
 .navbar-nav>li>a {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     border-bottom: solid 3px;
 }
 
@@ -170,6 +172,13 @@ address {
 
 #services {
     background: #5ac8cf;
+}
+
+.register-head {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 40px
 }
 
 #projects {
@@ -306,4 +315,15 @@ address {
         padding-left: 0;
         text-transform: uppercase;
     }
+}
+.register-on{
+    color: #fff;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 300;
+    margin: 70px 0 10px;
+}
+.register-section-block{
+    width: 300px;
+    margin: 0 auto;
 }
