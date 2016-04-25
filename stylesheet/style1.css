@@ -127,13 +127,13 @@
 }
 
 .event-description-title {
-    font-weight: 600;
-    font-size: 20px;
+    font-weight: 300;
+    font-size: 12px;
 }
 
 .event-description-note {
-    font-size: 12px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 600;
     padding-top: 5px;
     min-width: 200px;
 }
@@ -298,10 +298,12 @@ address {
     text-align: left;
     margin-bottom: 20px;
     padding-left: 15px;
+    text-transform: uppercase;
 }
 @media only screen and (min-width: 769px) {
     .event-date {
         text-align: center;
         padding-left: 0;
+        text-transform: uppercase;
     }
 }
