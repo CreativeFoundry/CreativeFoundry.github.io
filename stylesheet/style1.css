@@ -177,7 +177,8 @@ address {
     font-size: 24px;
     font-weight: 600;
     text-transform: uppercase;
-    margin-bottom: 40px
+    margin-bottom: 40px;
+    color: #702269;
 }
 
 #projects {
@@ -323,6 +324,6 @@ address {
     margin: 70px 0 10px;
 }
 .register-section-block{
-    width: 300px;
+    width: 350px;
     margin: 0 auto;
 }
