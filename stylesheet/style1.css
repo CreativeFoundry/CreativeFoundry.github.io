@@ -138,6 +138,7 @@
     font-weight: 600;
     padding-top: 5px;
     min-width: 200px;
+    text-transform: capitalize;
 }
 
 .agenda-day {
