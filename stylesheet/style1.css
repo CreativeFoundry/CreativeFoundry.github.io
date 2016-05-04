@@ -328,3 +328,8 @@ address {
     width: 350px;
     margin: 0 auto;
 }
+
+.about_event_text{
+    font-weight: 300;
+    font-size: 20px;
+}
