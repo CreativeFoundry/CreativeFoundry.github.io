@@ -333,3 +333,10 @@ address {
     font-weight: 300;
     font-size: 20px;
 }
+
+.confirmation_text{
+    font-style: default;
+    font-weight: 800;
+    font-size: 24px;
+    text-transform: uppercase;
+}
