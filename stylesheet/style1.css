@@ -335,8 +335,7 @@ address {
 }
 
 .confirmation_text{
-    font-style: default;
-    font-weight: 800;
+    font-weight: 800 !important;
     font-size: 24px;
     text-transform: uppercase;
 }
