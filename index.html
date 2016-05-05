@@ -278,7 +278,7 @@
     </div>
     <div id='clients' class="section clients">
         <div class="register-section-block">
-            <div class="register-head">Entry Free. Register Here!</div>
+            <div id="registerhead" style="visibility:visible;" class="register-head">Entry Free. Register Here!</div>
             <div>
                 <script src="https://app-e.marketo.com/js/forms2/js/forms2.js"></script>
                 <form class="register-form" id="mktoForm_4508"></form>
@@ -291,6 +291,7 @@
                     form.onSuccess(function(values, followUpUrl) {
                         form.getFormElem().hide();
                         document.getElementById('confirmform').style.visibility = 'visible';
+                        document.getElementById('registerhead').style.visibility = 'hidden';
                         return false;
                     });
                 });
