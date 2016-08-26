@@ -162,6 +162,7 @@
     padding-bottom: 20px;
 }
 
+
 .contact {
     color: #fff;
 }
@@ -180,6 +181,16 @@ address {
     text-transform: uppercase;
     margin-bottom: 40px;
     color: #702269;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
+    background-color: transparent;
+    color: red
+
+}
+
+a:hover{
+    color: red
 }
 
 #projects {
@@ -281,25 +292,25 @@ address {
     }
     .event-block  {
       display: flex;
-    }
+  }
   
-    .venue-content {
-        padding: 60px;
-        font-size: 20px;
-    }
+  .venue-content {
+    padding: 60px;
+    font-size: 20px;
+}
 }
 @media only screen and (min-width: 410px) and (max-width: 769px) {
     .navbar-nav {
         padding-left: 50px;
         width: 65%;
     }
-      
+
 }
 @media only screen and (min-width: 769px) {
-  
-      .logo_navbar {
-        padding-left: 80px;
-    }
+
+  .logo_navbar {
+    padding-left: 80px;
+}
 }
 .event-date {
     font-size: 24px;
@@ -310,6 +321,8 @@ address {
     padding-left: 15px;
     text-transform: uppercase;
 }
+
+
 @media only screen and (min-width: 769px) {
     .event-date {
         text-align: center;
@@ -317,6 +330,7 @@ address {
         text-transform: uppercase;
     }
 }
+
 .register-on{
     color: #fff;
     font-size: 20px;
@@ -338,4 +352,26 @@ address {
     font-weight: 800 !important;
     font-size: 24px;
     text-transform: uppercase;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+}
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+}
+
+.main-text {
+    position: absolute;
+    top: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-bottom: auto;
+    padding-left: auto;
+    text-transform: uppercase;
+    width: 100%;
+
 }
