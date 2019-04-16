@@ -1,3 +1,4 @@
 *.css.map
 *.scssc
 .sass-cache
+.idea
