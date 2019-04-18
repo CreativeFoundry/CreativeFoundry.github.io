@@ -1288,6 +1288,14 @@ textarea.parsley-error {
 }
 
 @media only screen and (max-width: 400px) {
+    .coming_soon div.intro {
+        font-size: 14px;
+    }
+
+    .coming_soon .intro.intro-heading {
+        font-size: 20px;
+    }
+
     .section,
     body {
         margin: 0;
