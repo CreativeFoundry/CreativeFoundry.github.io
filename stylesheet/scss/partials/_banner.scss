@@ -16,7 +16,8 @@
 		object-fit: cover;
 	}
 }
-.banner-video-container-mask{
-	@include cover_full_area;
-	background: rgba(237,49,47,0.8);
+
+.banner-video-container-mask {
+  @include cover_full_area;
+  background: rgba(237, 49, 47, 0.8);
 }

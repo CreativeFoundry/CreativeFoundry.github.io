@@ -1,13 +1,14 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <title>Creative Foundry, a ThoughtWorks initiative to galvanise creative minds in the field of art and design.</title>
-    <meta charset="utf-8" />
-    <meta http-equiv="CACHE-CONTROL" content="NO-CACHE" />
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
+    <title>Creative Foundry, a ThoughtWorks initiative to galvanise creative minds in the field of art and
+        design.</title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="CACHE-CONTROL" content="NO-CACHE"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0"/>
     <link rel="apple-touch-icon" sizes="57x57" href="./img/favicon/icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="./img/favicon/apple_icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="./img/favicon/apple_icon-72x72.png">
@@ -25,10 +26,11 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="./img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <meta property="og:title" content="Creative Foundry" />
-    <meta property="og:description" content="A ThoughtWorks initiative to galvanise creative minds in the field of art and design" />
-    <meta property="og:image" content="http://creativefoundry.github.io/img/banner.jpg" />
-    <link rel="stylesheet" type="text/css" href="stylesheet/main.min.css" />
+    <meta property="og:title" content="Creative Foundry"/>
+    <meta property="og:description"
+          content="A ThoughtWorks initiative to galvanise creative minds in the field of art and design"/>
+    <meta property="og:image" content="http://creativefoundry.github.io/img/banner.jpg"/>
+    <link rel="stylesheet" type="text/css" href="stylesheet/main.min.css"/>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -37,321 +39,338 @@
 </head>
 
 <body id='body'>
-    <div id='home' class="section home">
-        <div class="banner-video-container">
-            <video loop="" muted="" autoplay="" poster="./img/img_videoframe.png" class="fullscreen-bg__video">
-                <source src="img/Creative Foundry001.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="banner-video-container-mask"></div>
-            <div class="coming_soon">
-                <img src="./img/img_logo.png" alt="banner" id="teaser">
-                <div>
-                    <div class="register-on">21 <sup>st</sup> May, Pune.</div>
-                    <button class="btn" id="register-now-homepage-button">Register For Free</button>
-                </div>
-            </div>
-            <div class="banner_bottom">
-                <img src="./img/img_pattern_glyph3.png" alt="">
-            </div>
-            <div id='icon-scroll-down' class="icon-scroll position animate floating"></div>
+<div id='main-menu' class="navbar navbar-inverse navbar-static-top" role="navigation">
+    <a class="logo_navbar img-responsive" href='#home' title="Creative Foundry">
+        <img class="logo_navbar_image" alt="header logo" id="cf-logo" src="./img/img_foundry_logo.png"></a>
+    <!--         <img class="logo_navbar img-responsive" src="./img/img_logo_navbar.png" alt="logo"></img> -->
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
         </div>
-        <div id='main-menu' class="navbar navbar-inverse navbar-static-top" role="navigation">
-            <a class="logo_navbar img-responsive" href='#home' title="Creative Foundry"><img alt="header logo" id="cf-logo" src="./img/img_logo_navbar.png"></a>
-            <!--         <img class="logo_navbar img-responsive" src="./img/img_logo_navbar.png" alt="logo"></img> -->
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
+        <div class="navbar-collapse collapse">
+            <ul id='main-navbar' class="nav navbar-nav navbar-right main-menu">
+                <li class='menuItem about'><a href='#home' data-type='internal' class=''>Home</a></li>
+                <li class='menuItem services'><a href='#services' data-type='internal' class=''>Speakers</a></li>
+                <li class='menuItem projects'><a href='#projects' data-type='internal' class=''>Agenda</a></li>
+                <li class='menuItem clients'><a href='#contact' data-type='internal' class=''>Venue</a></li>
+                <li class='menuItem contact'><a href='#gallery' data-type='internal' class=''>CF 2017</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div id='home' class="section home">
+    <div class="coming_soon">
+        <div class="intro intro-heading">
+            <span>DESIGN FOR</span>
+            <b>SOCIAL CHANGE</b>
+        </div>
+        <div class="intro intro-content">
+            Come along and enjoy an evening of a curated bunch of talks and experiences
+            around the theme of <b>"DESIGN FOR SOCIAL CHANGE"</b>.Between sessions and outside, you'll have lots of
+            time to interact with other, like minded people.
+        </div>
+        <div class="register">
+            <button class="btn btn-danger" id="register-now-homepage-button">Register</button>
+            <div class="register-date">01/06 PUNE</div>
+        </div>
+    </div>
+    <div class="banner_bottom">
+        <img src="./img/img_pattern_glyph3.png" alt="">
+    </div>
+</div>
+<div id='about' class="section about-section">
+    <div class="about_event">
+        <div class="about_event_heading">About the event</div>
+        <div class="divider">
+        </div>
+        <p class="about_event_text">
+            Creative Foundry is a ThoughtWorks initiative to bring together creative minds in the field of art and
+            design. Come along and enjoy an evening of a curated bunch of talks and experiences around the theme of
+            “Creating for India”.
+        </p>
+        <p class="about_event_text">
+            Between sessions and outside, you'll have lots of time to interact with other, like minded people.
+        </p>
+    </div>
+</div>
+<div id='services' class="section services">
+    <div class="container">
+        <div class="row">
+            <div class="event-date">
+                Speakers
+            </div>
+            <div class="speaker_list">
+                <div class="flex_item">
+                    <img class="speaker_pic" src="./img/img_speaker_sudhir.png" alt=""></img>
+                    <p class="speaker_name"><a href="https://in.linkedin.com/in/sudhir-sharma-4595783" target="_blank">Sudhir
+                        Sharma</a></p>
+                    <p class="speaker_type"><a href="https://in.linkedin.com/in/sudhir-sharma-4595783" target="_blank">Founder
+                        &amp; Creative Chairman of INDI Design</a></p>
                 </div>
-                <div class="navbar-collapse collapse">
-                    <ul id='main-navbar' class="nav navbar-nav nav-justified main-menu">
-                        <li class='menuItem about'><a href='#about' data-type='internal' class=''>About</a></li>
-                        <li class='menuItem services'><a href='#services' data-type='internal' class=''>Speakers</a></li>
-                        <li class='menuItem projects'><a href='#projects' data-type='internal' class=''>Schedule</a></li>
-                        <li class='menuItem clients'><a href='#gallery' data-type='internal' class=''>Snapshots</a></li>
-                        <li class='menuItem contact'><a href='#contact' data-type='internal' class=''>Contact</a></li>
-                    </ul>
+                <div class="flex_item">
+                    <img class="speaker_pic" src="./img/img_speaker_chandan.png" alt=""></img>
+                    <p class="speaker_name"><a href="https://www.linkedin.com/in/chandanmohanty" target="_blank">Chandan
+                        Mohanty</a></p>
+                    <p class="speaker_type"><a href="https://www.linkedin.com/in/chandanmohanty" target="_blank">Co-Founder
+                        &amp; CEO, Leprechaun Games</a></p>
+                </div>
+                <div class="flex_item">
+                    <img class="speaker_pic" src="./img/img_speaker_deeptha.jpg" alt=""></img>
+                    <p class="speaker_name"><a href="http://www.deepthavivekanand.com/" target="_blank">Deeptha
+                        Vivekanand</a></p>
+                    <p class="speaker_type"><a href="http://www.deepthavivekanand.com/" target="_blank">Professional
+                        Storyteller and Educator</a></p>
+                </div>
+                <div class="flex_item">
+                    <img class="speaker_pic" src="./img/img_speaker_getblee.jpg" alt=""></img>
+                    <p class="speaker_name"><a href="https://www.linkedin.com/in/nupurakirloskar"
+                                               target="_blank">Nupura</a> &amp; <a
+                            href="https://www.linkedin.com/in/janhavij" target="_blank">Janhavi</a></p>
+                    <p class="speaker_type">Co-founders @ BleeTech</p>
+                </div>
+                <div class="flex_item">
+                    <img class="speaker_pic" src="./img/JayDutta.png" alt="" width="200" height="200"></img>
+                    <p class="speaker_name"><a href="https://www.linkedin.com/in/jaydutta" target="_blank">Jay Dutta</a>
+                    </p>
+                    <p class="speaker_type"><a href="https://www.linkedin.com/in/jaydutta" target="_blank">Venture
+                        Advisor / Former Head of UX Flipkart, Adobe</a></p>
+                </div>
+                <div class="flex_item">
+                    <img class="speaker_pic" src="./img/ManishJain.png" alt="" width="200" height="200"></img>
+                    <p class="speaker_name">Manish Jain</p>
+                    <p class="speaker_type"></p>
+                </div>
+                <div class="flex_item">
+                    <img class="speaker_pic" src="./img/adi-apoorve.png" alt="" width="200" height="200"></img>
+                    <p class="speaker_name"><a href="https://in.linkedin.com/in/adityakarle" target="_blank">Aditya</a>
+                        &amp; <a href="https://in.linkedin.com/in/apoorvgawde" target="_blank">Apoorv</a></p>
+                    <p class="speaker_type">Design Thinkers @ ThoughtWorks</p>
                 </div>
             </div>
         </div>
-        <div id='about' class="section about-section">
-            <div class="about_event">
-                <div class="about_event_heading">About the event</div>
-                <div class="divider">
+    </div>
+</div>
+</div>
+<div id='projects' class="section projects">
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="event-date">
+                    21<sup>st</sup> May, Saturday
                 </div>
-                <p class="about_event_text">
-                    Creative Foundry is a ThoughtWorks initiative to bring together creative minds in the field of art and design. Come along and enjoy an evening of a curated bunch of talks and experiences around the theme of “Creating for India”.
-                </p>
-                <p class="about_event_text">
-                    Between sessions and outside, you'll have lots of time to interact with other, like minded people.
-                </p>
-            </div>
-        </div>
-        <div id='services' class="section services">
-            <div class="container">
-                <div class="row">
-                    <div class="event-date">
-                        Speakers
+                <div class="col-lg-6">
+                    <div class="event-block">
+                        <div class="event-time">2:00 - 3:00 PM</div>
+                        <div class="event-description">
+                            <div class="event-description-note">
+                                Registration
+                            </div>
+                        </div>
                     </div>
-                    <div class="speaker_list">
-                        <div class="flex_item">
-                            <img class="speaker_pic" src="./img/img_speaker_sudhir.png" alt=""></img>
-                            <p class="speaker_name"><a href="https://in.linkedin.com/in/sudhir-sharma-4595783" target="_blank">Sudhir Sharma</a></p>
-                            <p class="speaker_type"><a href="https://in.linkedin.com/in/sudhir-sharma-4595783" target="_blank">Founder &amp; Creative Chairman of INDI Design</a></p>
+                    <div class="event-block">
+                        <div class="event-time">3:00 - 3:15 PM</div>
+                        <div class="event-description">
+                            <div class="event-description-note">
+                                Welcome Address
+                            </div>
+                            <div class="event-description-title">
+                                Jayesh Ghatge
+                            </div>
                         </div>
-                        <div class="flex_item">
-                            <img class="speaker_pic" src="./img/img_speaker_chandan.png" alt=""></img>
-                            <p class="speaker_name"><a href="https://www.linkedin.com/in/chandanmohanty" target="_blank">Chandan Mohanty</a></p>
-                            <p class="speaker_type"><a href="https://www.linkedin.com/in/chandanmohanty" target="_blank">Co-Founder &amp; CEO, Leprechaun Games</a></p>
+                    </div>
+                    <div class="event-block">
+                        <div class="event-time">3:20 - 3:50 PM</div>
+                        <div class="event-description">
+                            <div class="event-description-note">
+                                India: it's design landscape and the future
+                            </div>
+                            <div class="event-description-title">
+                                Sudhir Sharma
+                            </div>
                         </div>
-                        <div class="flex_item">
-                            <img class="speaker_pic" src="./img/img_speaker_deeptha.jpg" alt=""></img>
-                            <p class="speaker_name"><a href="http://www.deepthavivekanand.com/" target="_blank">Deeptha Vivekanand</a></p>
-                            <p class="speaker_type"><a href="http://www.deepthavivekanand.com/" target="_blank">Professional Storyteller and Educator</a></p>
+                    </div>
+                    <div class="event-block">
+                        <div class="event-time">4:00 - 4:30 PM</div>
+                        <div class="event-description">
+                            <div class="event-description-note">
+                                Feel the music - The GetBlee Story
+                            </div>
+                            <div class="event-description-title">
+                                Nupura &amp; Janhavi
+                            </div>
                         </div>
-                        <div class="flex_item">
-                            <img class="speaker_pic" src="./img/img_speaker_getblee.jpg" alt=""></img>
-                            <p class="speaker_name"><a href="https://www.linkedin.com/in/nupurakirloskar" target="_blank">Nupura</a> &amp; <a href="https://www.linkedin.com/in/janhavij" target="_blank">Janhavi</a></p>
-                            <p class="speaker_type">Co-founders @ BleeTech</p>
+                    </div>
+                    <div class="event-block">
+                        <div class="event-time">4:30 - 5:00 PM</div>
+                        <div class="event-description">
+                            <div class="event-description-note">
+                                Holy Collisions: Design & Tech (In India)
+                            </div>
+                            <div class="event-description-title">
+                                Jay Dutta
+                            </div>
                         </div>
-                        <div class="flex_item">
-                            <img class="speaker_pic" src="./img/JayDutta.png" alt="" width="200" height="200"></img>
-                            <p class="speaker_name"><a href="https://www.linkedin.com/in/jaydutta" target="_blank">Jay Dutta</a></p>
-                            <p class="speaker_type"><a href="https://www.linkedin.com/in/jaydutta" target="_blank">Venture Advisor / Former Head of UX Flipkart, Adobe</a></p>
+                    </div>
+                    <div class="event-block">
+                        <div class="event-time">5:00 - 5:15 PM</div>
+                        <div class="event-description">
+                            <div class="event-description-note">
+                                Break
+                            </div>
                         </div>
-                        <div class="flex_item">
-                            <img class="speaker_pic" src="./img/ManishJain.png" alt="" width="200" height="200"></img>
-                            <p class="speaker_name">Manish Jain</p>
-                            <p class="speaker_type"></p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="event-block">
+                        <div class="event-time">5:15 - 5:45 PM</div>
+                        <div class="event-description">
+                            <div class="event-description-note">MahaYodha- Designing & Crowdfunding India's first
+                                collectible card Game
+                            </div>
+                            <div class="event-description-title">
+                                Chandan Mohanty
+                            </div>
                         </div>
-                        <div class="flex_item">
-                            <img class="speaker_pic" src="./img/adi-apoorve.png" alt="" width="200" height="200"></img>
-                            <p class="speaker_name"><a href="https://in.linkedin.com/in/adityakarle" target="_blank">Aditya</a> &amp; <a href="https://in.linkedin.com/in/apoorvgawde" target="_blank">Apoorv</a></p>
-                            <p class="speaker_type">Design Thinkers @ ThoughtWorks</p>
+                    </div>
+                    <div class="event-block">
+                        <div class="event-time">5:45 - 6:15 PM</div>
+                        <div class="event-description">
+                            <div class="event-description-note">
+                                Designing the airport of tomorrow
+                            </div>
+                            <div class="event-description-title">
+                                Aditya Karle &amp; Apoorv Gawde
+                            </div>
+                        </div>
+                    </div>
+                    <div class="event-block">
+                        <div class="event-time">6:15 - 6:30 PM</div>
+                        <div class="event-description">
+                            <div class="event-description-note">
+                                Break
+                            </div>
+                        </div>
+                    </div>
+                    <div class="event-block">
+                        <div class="event-time">6:30 - 7:30 PM</div>
+                        <div class="event-description">
+                            Workshop
+                            <div class="event-description-note">
+                                The Designer As A Storyteller
+                            </div>
+                            <div class="event-description-title">
+                                Deeptha Vivekanand
+                            </div>
+                        </div>
+                        <div class="event-description">
+                            Workshop
+                            <div class="event-description-note">
+                                Toy making for Science
+                            </div>
+                            <div class="event-description-title">
+                                Manish Jain
+                            </div>
+                        </div>
+                    </div>
+                    <div class="event-block">
+                        <div class="event-time">7:30 - 7:45 PM</div>
+                        <div class="event-description">
+                            <div class="event-description-note">
+                                Closing Note
+                            </div>
+                        </div>
+                    </div>
+                    <div class="event-block">
+                        <div class="event-time">7:45 PM</div>
+                        <div class="event-description">
+                            <div class="event-description-note">
+                                Dinner &amp; Networking
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div id='projects' class="section projects">
-        <div>
-            <div class="container">
-                <div class="row">
-                    <div class="event-date">
-                        21<sup>st</sup> May, Saturday
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="event-block">
-                            <div class="event-time">2:00 - 3:00 PM</div>
-                            <div class="event-description">
-                                <div class="event-description-note">
-                                    Registration
-                                </div>
-                            </div>
-                        </div>
-                        <div class="event-block">
-                            <div class="event-time">3:00 - 3:15 PM</div>
-                            <div class="event-description">
-                                <div class="event-description-note">
-                                    Welcome Address
-                                </div>
-                                <div class="event-description-title">
-                                    Jayesh Ghatge
-                                </div>
-                            </div>
-                        </div>
-                        <div class="event-block">
-                            <div class="event-time">3:20 - 3:50 PM</div>
-                            <div class="event-description">
-                                <div class="event-description-note">
-                                    India: it's design landscape and the future
-                                </div>
-                                <div class="event-description-title">
-                                    Sudhir Sharma
-                                </div>
-                            </div>
-                        </div>
-                        <div class="event-block">
-                            <div class="event-time">4:00 - 4:30 PM</div>
-                            <div class="event-description">
-                                <div class="event-description-note">
-                                    Feel the music - The GetBlee Story
-                                </div>
-                                <div class="event-description-title">
-                                    Nupura &amp; Janhavi
-                                </div>
-                            </div>
-                        </div>
-                        <div class="event-block">
-                            <div class="event-time">4:30 - 5:00 PM</div>
-                            <div class="event-description">
-                                <div class="event-description-note">
-                                    Holy Collisions: Design & Tech (In India)
-                                </div>
-                                <div class="event-description-title">
-                                    Jay Dutta
-                                </div>
-                            </div>
-                        </div>
-                        <div class="event-block">
-                            <div class="event-time">5:00 - 5:15 PM</div>
-                            <div class="event-description">
-                                <div class="event-description-note">
-                                    Break
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="event-block">
-                            <div class="event-time">5:15 - 5:45 PM</div>
-                            <div class="event-description">
-                                <div class="event-description-note">MahaYodha- Designing & Crowdfunding India's first collectible card Game</div>
-                                <div class="event-description-title">
-                                    Chandan Mohanty
-                                </div>
-                            </div>
-                        </div>
-                        <div class="event-block">
-                            <div class="event-time">5:45 - 6:15 PM</div>
-                            <div class="event-description">
-                                <div class="event-description-note">
-                                    Designing the airport of tomorrow
-                                </div>
-                                <div class="event-description-title">
-                                    Aditya Karle &amp; Apoorv Gawde
-                                </div>
-                            </div>
-                        </div>
-                        <div class="event-block">
-                            <div class="event-time">6:15 - 6:30 PM</div>
-                            <div class="event-description">
-                                <div class="event-description-note">
-                                    Break
-                                </div>
-                            </div>
-                        </div>
-                        <div class="event-block">
-                            <div class="event-time">6:30 - 7:30 PM</div>
-                            <div class="event-description">
-                                Workshop
-                                <div class="event-description-note">
-                                    The Designer As A Storyteller
-                                </div>
-                                <div class="event-description-title">
-                                    Deeptha Vivekanand
-                                </div>
-                            </div>
-                            <div class="event-description">
-                                Workshop
-                                <div class="event-description-note">
-                                    Toy making for Science
-                                </div>
-                                <div class="event-description-title">
-                                    Manish Jain
-                                </div>
-                            </div>
-                        </div>
-                        <div class="event-block">
-                            <div class="event-time">7:30 - 7:45 PM</div>
-                            <div class="event-description">
-                                <div class="event-description-note">
-                                    Closing Note
-                                </div>
-                            </div>
-                        </div>
-                        <div class="event-block">
-                            <div class="event-time">7:45 PM</div>
-                            <div class="event-description">
-                                <div class="event-description-note">
-                                    Dinner &amp; Networking
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+</div>
 <div id="gallery">
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-      <li data-target="#myCarousel" data-slide-to="3"></li>
-      <li data-target="#myCarousel" data-slide-to="4"></li>
-      <li data-target="#myCarousel" data-slide-to="5"></li>
-      <li data-target="#myCarousel" data-slide-to="6"></li>
-      <li data-target="#myCarousel" data-slide-to="7"></li>
-      <li data-target="#myCarousel" data-slide-to="8"></li>
-      <li data-target="#myCarousel" data-slide-to="9"></li>
-    </ol>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+            <li data-target="#myCarousel" data-slide-to="6"></li>
+            <li data-target="#myCarousel" data-slide-to="7"></li>
+            <li data-target="#myCarousel" data-slide-to="8"></li>
+            <li data-target="#myCarousel" data-slide-to="9"></li>
+        </ol>
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <img src="./img/Slide1.png" alt="CF 2016" width="460" height="345">
-      </div>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="./img/Slide1.png" alt="CF 2016" width="460" height="345">
+            </div>
 
-      <div class="item">
-        <img src="./img/Slide2.png" alt="CF 2016" width="460" height="345">
-      </div>
-      
-      <div class="item">
-        <img src="./img/Slide3.png" alt="CF 2016" width="460" height="345">
-      </div>
-      
-      <div class="item">
-          <img src="./img/Slide4.png" alt="CF 2016" width="460" height="345">
-      </div>
-      
-      <div class="item">
-          <img src="./img/Slide5.png" alt="CF 2016" width="460" height="345">
-      </div>
-      
-      <div class="item">
-          <img src="./img/Slide6.png" alt="CF 2016" width="460" height="345">
+            <div class="item">
+                <img src="./img/Slide2.png" alt="CF 2016" width="460" height="345">
+            </div>
+
+            <div class="item">
+                <img src="./img/Slide3.png" alt="CF 2016" width="460" height="345">
+            </div>
+
+            <div class="item">
+                <img src="./img/Slide4.png" alt="CF 2016" width="460" height="345">
+            </div>
+
+            <div class="item">
+                <img src="./img/Slide5.png" alt="CF 2016" width="460" height="345">
+            </div>
+
+            <div class="item">
+                <img src="./img/Slide6.png" alt="CF 2016" width="460" height="345">
+            </div>
+
+            <div class="item">
+                <img src="./img/Slide7.png" alt="CF 2016" width="460" height="345">
+            </div>
+
+            <div class="item">
+                <img src="./img/Slide8.png" alt="CF 2016" width="460" height="345">
+            </div>
+
+            <div class="item">
+                <img src="./img/Slide9.png" alt="CF 2016" width="460" height="345">
+            </div>
+
+            <div class="item">
+                <img src="./img/Slide10.png" alt="CF 2016" width="460" height="345">
+            </div>
+
         </div>
-      
-      <div class="item">
-          <img src="./img/Slide7.png" alt="CF 2016" width="460" height="345">
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        <div class="main-text">
+            Snapshots from CF 2016
         </div>
-      
-      <div class="item">
-          <img src="./img/Slide8.png" alt="CF 2016" width="460" height="345">
-        </div>
-      
-      <div class="item">
-          <img src="./img/Slide9.png" alt="CF 2016" width="460" height="345">
-        </div>
-      
-      <div class="item">
-          <img src="./img/Slide10.png" alt="CF 2016" width="460" height="345">
-        </div>
-    
     </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-    <div class="main-text">
-    Snapshots from CF 2016
-  </div>
-  </div>
 </div>
 <div id='contact' class="section contact">
     <div class="section-content">
@@ -378,46 +397,49 @@
                             Drop a mail to
                             <br>creativefoundry@thoughtworks.com
                         </p>
-                            <!--                                 <p>
-                                    Or call us at
-                                    <br>+91 9543 344 545
-                                </p> -->
-                            </div>
-                        </div>
+                        <!--                                 <p>
+                                Or call us at
+                                <br>+91 9543 344 545
+                            </p> -->
                     </div>
                 </div>
             </div>
         </div>
-        <div id='footer' class="section footer">
-            <div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <h2>Creative Foundry</h2>
-                            <p>
-                                Creative Foundry is a ThoughtWorks initiative, a platform for some of the most creative minds in the field of design, and art and music to share, inspire and get inspired.
-                            </p>
-                        </div>
-                        <div class="col-lg-6">
-                            <h2>
-                              Follow us on twitter
-                          </h2>
-                          <a class="twitter-timeline" href="https://twitter.com/CreativFoundry" data-widget-id="723004736627040258" width="450" height="300" data-chrome="noheader nofooter noborders noscrollbar transparent">
-                            Tweets by @CreativFoundry
-                        </a>
-                        <script>
-                            ! function(d, s, id) {
-                                var js, fjs = d.getElementsByTagName(s)[0],
-                                p = /^http:/.test(d.location) ? 'http' : 'https';
-                                if (!d.getElementById(id)) {
-                                    js = d.createElement(s);
-                                    js.id = id;
-                                    js.src = p + "://platform.twitter.com/widgets.js";
-                                    fjs.parentNode.insertBefore(js, fjs);
-                                }
-                            }(document, "script", "twitter-wjs");
-                        </script>
-                    </div>
+    </div>
+</div>
+<div id='footer' class="section footer">
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Creative Foundry</h2>
+                    <p>
+                        Creative Foundry is a ThoughtWorks initiative, a platform for some of the most creative minds in
+                        the field of design, and art and music to share, inspire and get inspired.
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <h2>
+                        Follow us on twitter
+                    </h2>
+                    <a class="twitter-timeline" href="https://twitter.com/CreativFoundry"
+                       data-widget-id="723004736627040258" width="450" height="300"
+                       data-chrome="noheader nofooter noborders noscrollbar transparent">
+                        Tweets by @CreativFoundry
+                    </a>
+                    <script>
+                      !function (d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0],
+                            p = /^http:/.test(d.location) ? 'http' : 'https';
+                        if (!d.getElementById(id)) {
+                          js = d.createElement(s);
+                          js.id = id;
+                          js.src = p + "://platform.twitter.com/widgets.js";
+                          fjs.parentNode.insertBefore(js, fjs);
+                        }
+                      }(document, "script", "twitter-wjs");
+                    </script>
+                </div>
             </div>
         </div>
     </div>
@@ -427,17 +449,26 @@
         </div>
         <div class="footer_social_icons">
             <div class="social">
-                <a class="social_icon" href="https://twitter.com/CreativFoundry" id="twitter-link" title="Link to Creative Foundry Twitter account"><img class="social_glyphs" alt="Twitter icon" id="twitter-image" src="./img/img_twitter-white.png" /></a>
-                <a class="social_icon" href="https://www.facebook.com/twcreativefoundry" id="facebook-link" title="Link to Creative Foundry Facebook page"><img class="social_glyphs" alt="Facebook icon" id="facebook-image" src="./img/img_facebook-white.png" /></a>
-                <a class="social_icon" href="https://www.instagram.com/twcreativefoundry/" id="instagram-link" title="Link to Creative Foundry Instagram account"><img class="social_glyphs" alt="Instagram icon" id="instagram-image" src="./img/img_instagram-white.png" /></a>
+                <a class="social_icon" href="https://twitter.com/CreativFoundry" id="twitter-link"
+                   title="Link to Creative Foundry Twitter account"><img class="social_glyphs" alt="Twitter icon"
+                                                                         id="twitter-image"
+                                                                         src="./img/img_twitter-white.png"/></a>
+                <a class="social_icon" href="https://www.facebook.com/twcreativefoundry" id="facebook-link"
+                   title="Link to Creative Foundry Facebook page"><img class="social_glyphs" alt="Facebook icon"
+                                                                       id="facebook-image"
+                                                                       src="./img/img_facebook-white.png"/></a>
+                <a class="social_icon" href="https://www.instagram.com/twcreativefoundry/" id="instagram-link"
+                   title="Link to Creative Foundry Instagram account"><img class="social_glyphs" alt="Instagram icon"
+                                                                           id="instagram-image"
+                                                                           src="./img/img_instagram-white.png"/></a>
             </div>
         </div>
     </div>
     <script type="text/javascript" src="js/plugins.min.js" charset="utf-8"></script>
     <script>
-        $("#register-now-homepage-button").on("click", function() {
-            $(".menuItem.clients a").trigger("click");
-        });
+      $("#register-now-homepage-button").on("click", function () {
+        $(".menuItem.clients a").trigger("click");
+      });
     </script>
 </body>
 </html>

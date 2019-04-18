@@ -1,5 +1,6 @@
 * {
     font-family: 'Open Sans', sans-serif;
+    color: white;
 }
 
 .banner-video-container {
@@ -16,13 +17,12 @@
 }
 
 .coming_soon {
-    text-align: center;
-    position: relative;
     top: 50%;
     left: 50%;
     width: 100%;
     transform: translate(-50%, -50%);
     position: absolute;
+    padding-left: 138px;
 }
 
 .coming_soon img {
@@ -34,6 +34,32 @@
     margin-top: 30px;
     font-weight: 300;
     color: #efefef;
+}
+
+.coming_soon .intro {
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: left;
+    max-width: 600px;
+}
+
+.coming_soon .intro-heading {
+    font-size: 72px;
+}
+
+.coming_soon .intro-heading > b {
+    margin-top: -10px;
+}
+
+.coming_soon .register {
+    margin-top: 32px;
+}
+
+.coming_soon .register-date {
+    margin-top: 32px;
+    font-size: 50px;
+    font-weight: bold;
 }
 
 .banner-video-container {
@@ -54,15 +80,9 @@
 
 .btn {
     text-transform: uppercase;
-    cursor: pointer;
-    letter-spacing: .12em;
-    border-radius: 28px;
-    border: 0;
-    color: #002de3;
-    font-size: 16px;
-    background: #fff;
-    padding: 20px 60px 20px 60px;
-    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 12px 25px;
 }
 
 .speaker_list {
@@ -304,7 +324,6 @@ a:hover{
         padding-left: 50px;
         width: 65%;
     }
-
 }
 @media only screen and (min-width: 769px) {
 
