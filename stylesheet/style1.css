@@ -91,15 +91,14 @@
     width: 100%;
     display: -webkit-flex;
     display: flex;
-    -webkit-align-items: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-flex-flow: row wrap;
-    flex-flow: row wrap;
     -webkit-align-content: flex-end;
     align-content: flex-end;
+    overflow: auto;
 }
+.speaker_list .flex_item {
+    margin: 0 16px;
+}
+
 .speaker_list a{
     color: #fff;
     text-decoration: underline;
@@ -192,7 +191,7 @@ address {
 }
 
 #services {
-    background: #5ac8cf;
+    background: #B59487;
 }
 
 .register-head {
@@ -214,7 +213,7 @@ a:hover{
 }
 
 #projects {
-    background: #0071b4;
+    background: #B59487;
 }
 
 #clients {
@@ -284,12 +283,9 @@ a:hover{
     }
 }
 .section.contact {
-    background-image: url(../img/img_indian_fort.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+   background-color: #B59487;
 }
 .venue-content {
-    background-color: rgba(0, 0, 0, 0.7);
     font-size: 16px;
     font-weight: 300;
 }
