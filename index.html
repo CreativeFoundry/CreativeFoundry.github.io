@@ -75,7 +75,10 @@
             time to interact with other, like minded people.
         </div>
         <div class="register">
-            <button class="btn btn-danger" id="register-now-homepage-button">Register</button>
+            <button
+                    class="btn btn-danger"
+                    id="register-now-homepage-button"
+                    onclick="location.href = '#clients';">Register</button>
             <div class="register-date">01/06 PUNE</div>
         </div>
     </div>
@@ -417,6 +420,31 @@
         </a>
         <div class="main-text">
             Snapshots from CF 2017
+        </div>
+    </div>
+</div>
+<div id='clients' class="section clients">
+    <div class="register-section-block">
+        <div class="register-head">Entry Free. Register Here!</div>
+        <div>
+            <script src="https://app-e.marketo.com/js/forms2/js/forms2.js"></script>
+            <form class="register-form" id="mktoForm_4508"></form>
+            <script>
+              MktoForms2.loadForm("https://app-e.marketo.com", "199-QDE-291", 4508);
+            </script>
+            <script src="//<host>/js/forms2/js/forms2.js"></script>
+            <script>
+              MktoForms2.whenReady(function(form) {
+                form.onSuccess(function(values, followUpUrl) {
+                  form.getFormElem().hide();
+                  document.getElementById('confirmform').style.visibility = 'visible';
+                  return false;
+                });
+              });
+            </script>
+            <div id="confirmform" style="visibility:hidden;">
+                <p class="confirmation_text"><strong>Thanks for registering, You shall receive an email confirmation in your inbox shortly.</strong></p>
+            </div>
         </div>
     </div>
 </div>

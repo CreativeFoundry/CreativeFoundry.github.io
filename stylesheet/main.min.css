@@ -1303,7 +1303,8 @@ textarea.parsley-error {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
-        max-width: 100%
+        max-width: 100%;
+        color: white;
     }
 
     .section .heading {
