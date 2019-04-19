@@ -191,7 +191,7 @@ address {
 }
 
 #services {
-    background: #B59487;
+    /*background: #B59487;*/
 }
 
 .register-head {
@@ -213,7 +213,7 @@ a:hover{
 }
 
 #projects {
-    background: #B59487;
+    /*background: #B59487;*/
 }
 
 #clients {
@@ -284,7 +284,17 @@ a:hover{
 }
 .section.contact {
    background-color: #B59487;
+    background-image: url("../img/beach-top.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
 }
+
+.services-projects-bg{
+    background: #B59487 url("../img/beach.png") no-repeat left top;
+    background-size: contain;
+}
+
 .venue-content {
     font-size: 16px;
     font-weight: 300;
