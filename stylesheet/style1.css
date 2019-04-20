@@ -170,6 +170,10 @@
 
 .section {
     padding: 100px 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .social {
@@ -190,8 +194,8 @@ address {
     font-style: normal;
 }
 
-#services {
-    /*background: #B59487;*/
+#services .container {
+    overflow: auto;
 }
 
 .register-head {
@@ -347,11 +351,11 @@ a:hover{
 }
 }
 .event-date {
-    font-size: 24px;
+    font-size: 40px;
     font-weight: bold;
     color: #fff;
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 12%;
     padding-left: 15px;
     text-transform: uppercase;
 }
