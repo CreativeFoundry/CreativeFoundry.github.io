@@ -1,0 +1,15 @@
+.about-section{
+    @include make_content_center;
+    text-transform: uppercase;
+    text-align: center justify;
+    color: #fff;
+    max-width: 70%;
+    line-height: 3em;
+}
+.divider{
+        width:10%;
+        height:1px;
+        background: #fff;
+        text-align:center;
+        margin: 0 auto;
+}

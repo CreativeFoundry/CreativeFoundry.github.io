@@ -1,0 +1,16 @@
+@mixin make_content_center(){
+	text-align: center;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	width: 100%;
+	transform: translate(-50%, -50%);
+}
+
+@mixin cover_full_area(){
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}

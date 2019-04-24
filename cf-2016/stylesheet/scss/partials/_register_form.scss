@@ -1,0 +1,16 @@
+// !important is been given for overriding the inline styles given by the form script
+.register{
+	width: 500px;
+	border: 1px solid #333;
+	form{
+	    font-family: 'Open Sans', sans-serif!important;
+		width: 90%!important;
+		margin-left: 5%;
+		input[type="text"],
+		input[type="email"],
+		input[type="tel"]{
+		    font-family: 'Open Sans', sans-serif!important;
+			width: 450px!important;
+		}
+	}
+}

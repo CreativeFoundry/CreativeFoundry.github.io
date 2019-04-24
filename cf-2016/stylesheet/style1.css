@@ -1,0 +1,377 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner-video-container {
+    position: relative;
+}
+
+.banner-video-container-mask {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(237, 49, 47, 0.8);
+}
+
+.coming_soon {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.coming_soon img {
+    max-width: 78%;
+}
+
+.coming_soon .coming_soon_text {
+    font-size: 24px;
+    margin-top: 30px;
+    font-weight: 300;
+    color: #efefef;
+}
+
+.banner-video-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.banner-video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#home {
+    position: relative;
+}
+
+.btn {
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: .12em;
+    border-radius: 28px;
+    border: 0;
+    color: #ed312f;
+    font-size: 16px;
+    background: #fff;
+    padding: 20px 60px 20px 60px;
+    text-decoration: none;
+}
+
+.speaker_list {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-align-content: flex-end;
+    align-content: flex-end;
+}
+.speaker_list a{
+    color: #fff;
+    text-decoration: underline;
+}
+.speaker_name {
+    font-weight: 900;
+    font-size: 1em;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.speaker_pic {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.speaker_type {
+    color: #fff;
+    font-size: 13px;
+    margin-top: -15px;
+}
+
+.banner_bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+.navbar-static-top {
+    color: #ed312f;
+    background-color: #fff;
+}
+
+.event-block {
+    margin: 15px 0;
+    max-width: 80%;
+    color: #fff;
+}
+
+.event-time {
+    min-width: 120px;
+    font-weight: 600;
+}
+
+.event-description {
+    border-left: #5ac8cf solid 3px;
+    padding-left: 10px;
+}
+
+.event-description-title {
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.event-description-note {
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 5px;
+    min-width: 200px;
+    text-transform: capitalize;
+}
+
+.agenda-day {
+    border-bottom: #fff solid 1px;
+    border: 0;
+    line-height: 24px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.section {
+    padding: 100px 0;
+}
+
+.social {
+    float: right;
+}
+
+.navbar-nav>li>a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.contact {
+    color: #fff;
+}
+
+address {
+    font-style: normal;
+}
+
+#services {
+    background: #5ac8cf;
+}
+
+.register-head {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    color: #702269;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
+    background-color: transparent;
+    color: red
+
+}
+
+a:hover{
+    color: red
+}
+
+#projects {
+    background: #0071b4;
+}
+
+#clients {
+    background: #fff;
+}
+
+#footer {
+    background: #efefef;
+}
+
+.social_glyphs {
+    max-width: 32px;
+}
+
+.social-copyright-block {
+    height: 80px;
+    background: #ed312f;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+
+}
+.copyright {
+    color: #fff;
+}
+.navbar-toggle {
+    background: #ed312f;
+    border-color: none;
+    margin-top: 24px;
+}
+.more_speakers {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+}
+.about-section {
+    background-image: url(../img/img_tw_indian_pattern.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+.about_event_heading {
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.about_event {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    font-size: 16px;
+    margin: 20px;
+    padding: 40px 30px;
+}
+@media only screen and (min-width: 800px) {
+    .about_event {
+        width: 450px;
+        margin: auto;
+        font-size: 24px;
+    }
+}
+.section.contact {
+    background-image: url(../img/img_indian_fort.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.venue-content {
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 16px;
+    font-weight: 300;
+}
+.venue-header {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.divider {
+    border-bottom: 1px solid #fff;
+    border: 0;
+}
+.logo_navbar {
+    padding-left: 10px;
+    padding-top: 15px;
+    float: left;
+}
+@media only screen and (min-width: 768px) {
+    .flex_item {
+        margin: 10px 60px 0 0;
+    }
+    .event-block  {
+      display: flex;
+  }
+  
+  .venue-content {
+    padding: 60px;
+    font-size: 20px;
+}
+}
+@media only screen and (min-width: 410px) and (max-width: 769px) {
+    .navbar-nav {
+        padding-left: 50px;
+        width: 65%;
+    }
+
+}
+@media only screen and (min-width: 769px) {
+
+  .logo_navbar {
+    padding-left: 80px;
+}
+}
+.event-date {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    text-transform: uppercase;
+}
+
+
+@media only screen and (min-width: 769px) {
+    .event-date {
+        text-align: center;
+        padding-left: 0;
+        text-transform: uppercase;
+    }
+}
+
+.register-on{
+    color: #fff;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 300;
+    margin: 70px 0 10px;
+}
+.register-section-block{
+    width: 350px;
+    margin: 0 auto;
+}
+
+.about_event_text{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.confirmation_text{
+    font-weight: 800 !important;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+}
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+}
+
+.main-text {
+    position: absolute;
+    top: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-bottom: auto;
+    padding-left: auto;
+    text-transform: uppercase;
+    width: 100%;
+
+}
