@@ -82,6 +82,11 @@
     text-transform: uppercase;
 }
 
+.maps-iframe {
+    width: 100%;
+    height: 304px;
+}
+
 .speaker_list {
     text-align: center;
     position: relative;
