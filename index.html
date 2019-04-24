@@ -76,7 +76,7 @@
         </div>
         <div class="register">
             <button
-                    class="btn btn-danger"
+                    class="btn btn-danger btn-lg"
                     id="register-now-homepage-button"
                     onclick="location.href = '#clients';">Register</button>
             <div class="register-date">01/06 PUNE</div>
@@ -344,6 +344,13 @@
                                     <br>+91 9543 344 545
                                 </p> -->
                     </div>
+                    <div class="row">
+                        <br />
+                        <button
+                                class="btn btn-danger"
+                                id="register-now-homepage-button-contact"
+                                onclick="location.href = '#clients';">Register</button>
+                    </div>
                 </div>
             <!--</div>-->
         </div>
@@ -435,6 +442,8 @@
             <script src="//<host>/js/forms2/js/forms2.js"></script>
             <script>
               MktoForms2.whenReady(function(form) {
+                document.getElementsByClassName('mktoButton')[0].className = 'btn btn-danger btn-sm';
+
                 form.onSuccess(function(values, followUpUrl) {
                   form.getFormElem().hide();
                   document.getElementById('confirmform').style.visibility = 'visible';
