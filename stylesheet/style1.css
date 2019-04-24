@@ -87,6 +87,10 @@
     height: 304px;
 }
 
+.shift-up {
+    margin-top: -40px;
+}
+
 .speaker_list {
     text-align: center;
     position: relative;
