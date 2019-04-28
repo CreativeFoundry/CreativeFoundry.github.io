@@ -16,10 +16,16 @@
 }
 
 @keyframes bounce {
-    from {
+    0%   {
         transform: translateY(0px);
     }
-    to {
+    25%  {
+        transform: translateY(-3px);
+    }
+    50%  {
+        transform: translateY(-12px);
+    }
+    100% {
         transform: translateY(-15px);
     }
 }
@@ -35,7 +41,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("https://www.positiveposture.com/wp-content/themes/Divi-Child/style/img/pp-product-back-to-top.png");
-    animation: bounce 0.5s infinite alternate;
+    animation: bounce 0.4s infinite alternate;
 }
 
 .coming_soon {
@@ -81,7 +87,7 @@
 
 .coming_soon .register-date {
     margin-top: 32px;
-    font-size: 50px;
+    font-size: 44px;
     font-weight: bold;
 }
 
@@ -107,7 +113,7 @@
 
 .maps-iframe {
     width: 100%;
-    height: 340px;
+    height: 362px;
 }
 
 .left-extra-padding {
@@ -176,7 +182,7 @@
 }
 
 .event-description {
-    border-left: #ED332E solid 3px;
+    border-left: #FF9567 solid 3px;
     padding-left: 10px;
 }
 
@@ -212,7 +218,7 @@
 
 .navbar-nav>li>a {
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 
@@ -237,8 +243,7 @@ address {
 
 .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
     background-color: transparent;
-    color: red
-
+    color: #654141;
 }
 
 a:hover{
@@ -246,11 +251,10 @@ a:hover{
 }
 
 #projects {
-    /*background: #B59487;*/
 }
 
 #clients {
-    background: #B59487;
+    background-color: #FF9567;
     color: white;
 }
 
@@ -291,6 +295,13 @@ a:hover{
     border-color: none;
     margin-top: 24px;
 }
+
+.nav-bar-selected-item {
+    color: white !important;
+    border-bottom: 4px solid #FF3366;
+    font-weight: bold;
+}
+
 .more_speakers {
     font-weight: 600;
     text-transform: uppercase;
@@ -325,7 +336,6 @@ a:hover{
     }
 }
 .section.contact {
-   background-color: #B59487;
     background-image: url("../img/beach-top.png");
     background-repeat: no-repeat;
     background-position: right bottom;
@@ -333,7 +343,7 @@ a:hover{
 }
 
 .services-projects-bg{
-    background: #B59487 url("../img/beach.png") no-repeat left top;
+    background: url("../img/beach.png") no-repeat left top;
     background-size: contain;
 }
 
@@ -444,5 +454,7 @@ a:hover{
 }
 
 .btn-danger {
-    background-color: #ED332E;
+    background-color: #FF3366;
+    font-weight: bold;
+    padding: 18px 40px;
 }
