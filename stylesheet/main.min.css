@@ -28,7 +28,7 @@ ul {
 }
 
 #body {
-    background-color: #654141;
+    background-color: #48342f;
     padding: 0;
     margin: 0
 }
@@ -125,11 +125,6 @@ p {
 
 #main-menu .container {
     margin-top: -50px;
-}
-
-.logo_navbar_image {
-    width: 172px;
-    height: 74px;
 }
 
 .navbar-nav > li {
@@ -1072,7 +1067,7 @@ textarea.parsley-error {
     }
 
     .navbar-collapse {
-        background-color: white;
+        background-color: #B59487;
     }
 
     ul.navbar-nav {
